@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Básica</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>Calculadora Básica</h1>
+    <div class="input-container">
+      <input type="number" id="value1" placeholder="Primer número">
+      <input type="number" id="value2" placeholder="Segundo número">
+    </div>
+    <div class="buttons-container">
+      <button data-operation="+">+</button>
+      <button data-operation="-">-</button>
+      <button data-operation="*">×</button>
+      <button data-operation="/">÷</button>
+    </div>
+    <div class="result-container">
+      <h2>Resultado: <span id="result">0</span></h2>
+    </div>
+  </div>
+</body>
+</html>
